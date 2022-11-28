@@ -24,7 +24,6 @@ def guess(num):
     elif num == pick:
         return 0
 
-
 def guessNumber(n):
     global pick
     start = 1
@@ -38,6 +37,7 @@ def guessNumber(n):
             start = mid + 1
         else:
             return mid
+
 
 
 
