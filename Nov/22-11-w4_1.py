@@ -11,13 +11,13 @@ i 가 5으로 나누어 떨어진다면 answer[i] == "Buzz"
 def fizzBuzz(n):
     r = []
     for m in range(n):
-        if (m+1)%15 == 0:
+        if (m+1) % 15 == 0:
             r.append("fizzbuzz")
             continue
-        if (m+1)%3 == 0:
+        if (m+1) % 3 == 0:
             r.append("fizz")
             continue
-        if (m+1)%5 == 0:
+        if (m+1) % 5 == 0:
             r.append("buzz")
             continue
         else:
